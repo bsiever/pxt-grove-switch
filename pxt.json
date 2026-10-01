@@ -1,0 +1,36 @@
+{
+    "name": "pxt-grove-switch",
+    "version": "0.1.0",
+    "description": "Support for the Seeed Grove 6-Position DIP Switch (I2C)",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "groveswitch.ts",
+        "groveswitch.cpp",
+        "shims.d.ts",
+        "enums.d.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "targetVersions": {
+        "target": "8.1.28",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj",
+    "authors": [
+        "Bill Siever <bsiever@gmail.com>"
+    ],
+    "card": {
+        "name": "Grove DIP Switch",
+        "imageUrl": "file:../icon.png",
+        "feedbackUrl": "http://siever.info"
+    }
+}
